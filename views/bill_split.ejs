@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bill Split Page</title>
+	<link rel="stylesheet" type="text/css" href="../css/styles.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+</head>
+<body>
+	<div class="container">
+		<h1>Trip</h1>
+		<h1>Add Collaborators</h1>
+		<form>
+			<input type="text" onkeypress="return ((event.charCode >= 65 && event.charCode <= 90) 
+					|| (event.charCode >= 97 && event.charCode <= 122) || (event.charCode == 32))"
+				    id="name" placeholder="Name Of Collaborator" required>
+			<input type="number" id="price" placeholder="Price" required>
+			<button class="submit">Submit</button>
+		</form>
+		<div>
+			<ul id="CollaboratorNames" class="listItems container">
+			</ul>
+		</div>
+		<button class="settleUp">Settle Up?</button>
+		<br>
+		<br>
+		<div>
+			<ul id="settle_list" class="listItems container"></ul>
+		</div>
+	</div>
+	<script type="text/javascript" src="../bill_split.js"></script>
+</body>
+</html>

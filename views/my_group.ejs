@@ -1,0 +1,17 @@
+<title>Groups List</title>
+<link rel="stylesheet" type="text/css" href="../css/styles.css">
+
+<ul class="container">
+	<li class="heading fnt20 wt800">MY GROUPS</li>
+	<% for (var i = 0; i < groups_list.length; ++i) {%>
+		<li class="fnt20 wt400"> <a href="/my_group/bill_split"> <%= groups_list[i] %> </a> </li>
+	<% } %>
+</ul>
+
+<br>
+<br>
+<a href="../">back</a>
+<br>
+<br>
+<a href="../add_group">Add new group</a>
+ 

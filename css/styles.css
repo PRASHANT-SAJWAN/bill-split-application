@@ -1,0 +1,187 @@
+body {
+	background-color: #DEB887;
+	padding: 40px;
+}
+
+.container {
+	margin: 60px;
+}
+
+
+/* spacing */
+.lmargin10px {
+	margin-left: 10px;
+}
+
+.lmargin20px {
+	margin-left: 20px;
+}
+
+.lmargin30px {
+	margin-left: 30px;
+}
+
+/* buttons */
+button {
+	outline: none;
+}
+
+#my_group, #add_group {
+	background-color: blue;
+	padding: 10px 20px;
+	font-size: 25px;
+	font-weight: 800;
+	margin-right: 80px;
+	border-bottom-left-radius: 20px;
+	border-top-right-radius: 20px;
+	border-color: rgb(0,0,0,0);
+	box-shadow: 1px 1px black;
+}
+
+#my_group:hover, #add_group:hover {
+	background-color: darkblue;
+	transition: 0.7s;
+	color: lightgreen;
+}
+
+.button_css {
+	background-color: lightgreen;
+	height: 40px;
+	width: 60px;
+	font-size: 20px;
+	margin: 10px;
+	box-sizing: border-box;
+	border-radius: 10px;
+	border: rgba(0, 0, 0, 0);
+	box-shadow: 4px 2px green;
+}
+
+.button_css:hover {
+	background-color: green;
+	transition: 0.5s;
+}
+
+.submit {
+	background-color: lightgreen;
+	height: 50px;
+	width: 100px;
+	font-size: 20px;
+	margin-left: 15px;
+	border-radius: 10px;
+	border: rgba(0, 0, 0, 0);
+}
+
+.settleUp {
+	background-color: lightgreen;
+	height: 50px;
+	width: 150px;
+	padding: 10px 15px;
+	font-size: 20px;
+	left: 20%;
+	border-radius: 15px;
+}
+
+.submit:hover, .settleUp:hover {
+	background-color: steelblue;
+	transition: 0.7s;
+	color: lightgreen;
+}
+
+/* input */
+input {
+	line-height: 45px;
+	width: 250px;
+	font-size: 20px;
+	margin: 0px 13px;
+	margin-right: 20px;
+	padding-left: 15px;
+	box-sizing: border-box;
+	border: rgba(0, 0, 0, 0);
+	outline: 1px #C1C1C1;
+}
+
+input:focus {
+	outline: 2px solid #C1C1C1;
+}
+
+/*left Alignment*/
+.floatleft {
+	float: left;
+	box-sizing: auto;
+	margin-right: 20px;
+	margin-left: 20px;
+	font-weight: 600;
+	font-size: 30px;
+}
+
+/* List items */
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	width: 60%;
+	text-align: center;
+	background-color: #BC8F8F;
+	line-height: 40px;
+	transition: 0.5s;
+}
+
+li:nth-child(2n) {
+	background-color: #C1C1C1;
+}
+
+.heading {
+	background-color: steelblue;	
+}
+
+/* anchor <a> tag */
+a {
+  display: block;
+  position: relative;
+  text-decoration: none;
+  color: black;
+}
+
+/* font sizes */
+.fnt15 {
+	font-size: 15px;
+}
+.fnt20 {
+	font-size: 20px;
+}
+.fnt25 {
+	font-size: 25px;
+}
+.fnt30 {
+	font-size: 30px;
+}
+
+/* font weight */
+
+.wt200 {
+	font-weight: 200;
+}
+.wt300 {
+	font-weight: 300;
+}
+.wt400 {
+	font-weight: 400;
+}
+.wt500 {
+	font-weight: 500;
+}
+.wt600 {
+	font-weight: 600;
+}
+.wt700 {
+	font-weight: 700;
+}
+.wt800 {
+	font-weight: 800;
+}
+.wt900 {
+	font-weight: 900;
+}

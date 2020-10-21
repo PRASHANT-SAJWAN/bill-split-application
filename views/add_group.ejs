@@ -1,0 +1,19 @@
+<link rel="stylesheet" type="text/css" href="../css/styles.css">
+
+<form  name="new_group" action="/my_group" method="POST">
+	<h1>Group Name</h1>
+	<!-- can only add alphabets, numbers and white spaces -->
+	<input type="text" onkeypress="return ((event.charCode >= 65 && event.charCode <= 90) || (event.charCode >= 97 
+		&& event.charCode <= 122) || (event.charCode == 32) || 
+		(event.charCode >= 48 && event.charCode <= 57))"
+	     id="group_name" name="group_name" placeholder="Group Name" required>
+	<br>
+	<br>
+	<br>
+
+	<button class="button_css left40">Add</button>
+
+	<br>
+	<br>
+	<a href="../">back</a>
+</form>	 
